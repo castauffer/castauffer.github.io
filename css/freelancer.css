@@ -152,7 +152,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: #F3EADC;
-  background: #6B2D31;
+  background: #B1662D;
 }
 .navbar-custom .navbar-toggle {
   color: #F3EADC;
@@ -162,7 +162,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #6B2D31;
+  background-color: #B1662D;
   color: #F3EADC;
   border-color: #6B2D31;
 }
