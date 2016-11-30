@@ -1,6 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
 
+button.accordion {
+    background-color: #CBFF4E;
+    color: #FF4400;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: 0.1s;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: #99ff99;
+    max-height: 0;
+    overflow: hidden;
+    transition: 10s ease-in-out;
+    opacity: 0;
+    border-radius: 10px;
+    display: none;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+    display: block;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #00d2e6;
+}
+</style>
 <head>
 
     <meta charset="utf-8">
