@@ -55,7 +55,7 @@ hr.star-light {
   border-color: #F3EADC;
 }
 hr.star-light:after {
-  background-color: #6B2D31;
+  background-color: #B1662D;
   color: #F3EADC;
 }
 hr.star-primary {
@@ -115,13 +115,13 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: #B1662D;
+  color: #F3EADC;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #F3EADC;
+  color: #B1662D;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
