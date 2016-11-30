@@ -8,6 +8,13 @@ body {
   overflow-x: hidden;
   background-color: #F3EADC;
 }
+
+.accordion{
+ background-color: #B1662D;
+ color: #F3EADC;
+
+}
+
 p {
   font-size: 20px;
 }
