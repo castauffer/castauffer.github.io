@@ -130,7 +130,7 @@ header .intro-text .skills {
   color: #F3EADC;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #6B2D31;
+  color: #B1662D;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -139,7 +139,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: #F3EADC;
-  background: #6B2D31;
+  background: #B1662D;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
