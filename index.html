@@ -167,58 +167,76 @@
             </div>
             <div class="row">
               <h1>Craig Stauffer</h1>
-                <div>
-                  <p>Phone: (623)582 3876
-                    <br>
-                      E-Mail:castauff@asu.edu
-                  </p>
-                </div>
-                <h2>Objective</h2>
-                <div>
-                  <p>Looking for opportunities to gain employment experience while working toward
-              a college degree.
-                  </p>
-                </div>
-                <h2>Education</h2>
-                <div>
-                  <p>Mountain Ridge High School (Glendale, AZ): Graduated 2015
-                    <br>
-                    <br>
-                     Arizona State University (Tempe, AZ): 2015 to Present
-                     <br>
-                     Digital Culture (Media Processing)
-                  </p>
-                </div>
-                <h2>Previous Work</h2>
-                <div>
-                  <p>Best Western Reservations Agent (Summers 2015 + 2016)
-                    <br>
-                    Helped customers make hotel reservations over the phone
-                    <br>
-                    <br>
-                    Busser at Ironworks Food and Spirits (May – August 2014)
-                    <br>
-                    Worked in a team setting to provide excellent service to customers
-                  </p>
-                </div>
-                <h2>Skills</h2>
-                <div>
-                  <p>Very proficient video editor<br>
-                    Familiarity with entire Adobe suite<br>
-                    HTML5 Experience<br>
-                    Javascript Experience<br>
-                    Swift Experience<br>
-                    Proficient in most DAWs<br>
-                  </p>
-                </div>
-                <h2>Special Awards/ Volunteer Work</h2>
-                <div>
-                  <p>U.S. Army All American (2015)<br>
-                    Louis Armstrong Jazz Award<br>
-                    Percussion Clinics at Hillcrest Middle School<br>
-                    Work with Soldier's Best Friend<br>
-                  </p>
-                </div>
+    <button class='accordion'>Contact Info</button>
+    <div class='panel'>
+      <p>Phone: (623)582 3876
+        <br>
+          E-Mail:castauff@asu.edu
+      </p>
+    </div>
+
+    <button class='accordion'>Objective</button>
+    <div class='panel'>
+      <p>Looking for opportunities to gain employment experience while working toward
+a college degree.
+      </p>
+    </div>
+
+    <button class='accordion'>Education</button>
+    <div class='panel'>
+      <p>Mountain Ridge High School (Glendale, AZ): Graduated 2015
+        <br>
+        <br>
+         Arizona State University (Tempe, AZ): 2015 to Present
+         <br>
+         Digital Culture (Media Processing)
+      </p>
+    </div>
+
+    <button class='accordion'>Work Experience</button>
+    <div class='panel'>
+      <p>Best Western Reservations Agent (Summers 2015 + 2016)
+        <br>
+        Helped customers make hotel reservations over the phone
+        <br>
+        <br>
+        Busser at Ironworks Food and Spirits (May – August 2014)
+        <br>
+        Worked in a team setting to provide excellent service to customers
+      </p>
+    </div>
+
+    <button class='accordion'>Skills</button>
+    <div class='panel'>
+      <p>Very proficient video editor<br>
+        Familiarity with entire Adobe suite<br>
+        HTML5 Experience<br>
+        Javascript Experience<br>
+        Swift Experience<br>
+        Proficient in most DAWs<br>
+      </p>
+    </div>
+
+    <button class='accordion'>Various Accolades/ Volunteer Work</button>
+    <div class='panel'>
+      <p>U.S. Army All American (2015)<br>
+        Louis Armstrong Jazz Award<br>
+        Percussion Clinics at Hillcrest Middle School<br>
+        Work with Soldier's Best Friend<br>
+      </p>
+    </div>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function(){
+          this.classList.toggle("active");
+          this.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>
 
         </div>
     </section>
